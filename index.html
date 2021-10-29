@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
-<div id="showInfo"></div>
+
+    <div id="showInfo"></div>
+
+    <div>
+        <select id="selectID">
+            <option value="postAPI" id="postAPI">Add to posts</option>
+            <option value="albumAPI" id="albumAPI">Add to albums</option>
+            <option value="userAPI" id="userAPI">Add new User</option>
+            <option value="todosAPI" id="todosAPI">Add to todos</option>
+            <option value="commentsAPI" id="commentsAPI">Add to comments</option>
+
+        </select>
+
+        <input type="text" placeholder="ID" id="idID">
+        <input type="text" placeholder="first NAME" id="fNameID">
+        <input type="text" placeholder="Last NAME" id="lNameID">
+        <input type="number" placeholder="AGE" id="ageID">
+        <button id="btnId">SEND</button>
+    </div>
 
     <script src="./main.js"></script>
 </body>
+
 </html>
